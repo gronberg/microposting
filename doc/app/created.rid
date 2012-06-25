@@ -1,0 +1,9 @@
+Wed, 20 Jun 2012 23:29:54 -0500
+app/models/user.rb	Tue, 19 Jun 2012 21:50:58 -0500
+app/helpers/users_helper.rb	Tue, 19 Jun 2012 21:38:42 -0500
+app/controllers/application_controller.rb	Fri, 15 Jun 2012 18:17:53 -0500
+app/helpers/static_pages_helper.rb	Fri, 15 Jun 2012 18:17:53 -0500
+app/helpers/application_helper.rb	Fri, 15 Jun 2012 18:17:53 -0500
+doc/README_FOR_APP	Fri, 15 Jun 2012 18:17:53 -0500
+app/controllers/users_controller.rb	Tue, 19 Jun 2012 21:54:48 -0500
+app/controllers/static_pages_controller.rb	Fri, 15 Jun 2012 18:17:53 -0500
