@@ -50,6 +50,7 @@ class UsersController < ApplicationController
   end
 
   # TO-DO: prevent admin from deleting self (cannot access destroy action)
+  # checkout http://stackoverflow.com/questions/10907325/rspec-test-for-destroy-if-no-delete-link
   # def destroy
   #   @user = User.find(params[:id]).destroy
   #   unless @user.admin = true
