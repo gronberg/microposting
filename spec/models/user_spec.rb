@@ -147,7 +147,7 @@ describe User do
   describe "micropost associations" do
 
     before { @user.save }
-    let! (:older_micrpost) do
+    let! (:older_micropost) do
       FactoryGirl.create(:micropost, user: @user, created_at: 1.day.ago)
     end
     let! (:newer_micropost) do
@@ -155,7 +155,7 @@ describe User do
     end
 
     it "should have the right microposts in the right order" do
-      @user.microposts.should == [newer_micropost, older_micrpost]
+      @user.microposts.should == [newer_micropost, older_micropost]
     end
 
     it "should destroy associated microposts" do
